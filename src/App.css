@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  margin: 2px;
+  background-color: transparent;
+  border: 2px solid black;
+  outline: none;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.4s;
+}
+
+button:hover {
+  border: 2px solid #248859b2;
+}
+
+#new-game {
+  padding: 4px;
+  transition: 0.4s;
+  border: 2px solid black;
+}
+
+#new-game:hover {
+  border: 2px solid #248859b2;
+}
+
+.App-title {
+  margin: 0 auto;
+  color: white;
+  background-color: #248859b2;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 40%;
+}
+
+.grid {
+  margin: 3% 5%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.score-tracker {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.first-turn-X,
+.first-turn-O {
+  height: 30px;
+  width: 30px;
+  margin: 3px;
+  padding: 2px;
+}
+
+@media all and (max-width: 600px) {
+  .App-title {
+    width: 80%;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 900px) {
+  .App-title {
+    width: 60%;
+  }
+}
