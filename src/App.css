@@ -1,8 +1,10 @@
 .App {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  border: 2px solid #6b6c6d;
+  border: 0.1px solid lightgray;
+  border-radius: 2px;
   width: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   height: 650px;
   margin: 10vh auto;
   background-color: white;
@@ -41,7 +43,7 @@ button:hover {
   margin: 0 auto;
   color: black;
   background-color: #f4cb42;
-  margin-top: 3%;
+  margin-top: 45px;
   margin-bottom: 3%;
   width: 40%;
 }
@@ -70,6 +72,7 @@ button:hover {
 @media all and (max-width: 600px) {
   .App-title {
     width: 80%;
+    margin-top: 25px;
   }
 
   .App {
@@ -88,5 +91,18 @@ button:hover {
     width: 85%;
     height: 600px;
     margin: 3vh auto;
+  }
+}
+
+@media all and (width: 320px) {
+  .App {
+    width: 92%;
+    height: 520px;
+    margin: 3vh auto;
+  }
+
+  .grid {
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px;
   }
 }
