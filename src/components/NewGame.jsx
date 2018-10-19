@@ -1,11 +1,12 @@
 import React from "react";
+import NewGameButton from "./NewGameButton";
 
 const NewGame = ({ handleNewGameClick, handleFirstTurnClick }) => {
   return (
     <div>
-      <button id="new-game" onClick={handleNewGameClick}>
-        New Game
-      </button>
+      <NewGameButton 
+       handleNewGameClick={handleNewGameClick}
+      />
       <div>
         Choose first player:
         <button
