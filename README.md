@@ -6,7 +6,6 @@ The actual app in all it's glory you can find if you follow this [link](http://n
 
 Enjoy!
 
----
 
 ## Installation
 
